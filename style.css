@@ -70,10 +70,11 @@ body{
     white-space: nowrap;
     width: max-content;
 }
-.menu > .extand > .content > a{
+.menu > .extand > .content > span{
 	text-decoration: none;
     color: #ffb293;
     position: relative;
+    cursor: pointer;
     bottom: 0px;
     font-size: 60px;
     margin: 22px;

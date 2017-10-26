@@ -1,6 +1,7 @@
 var burger = document.getElementById("btn-timeline");
 var menu = document.getElementById("menu");
 const overBurger = document.querySelectorAll("#open-timeline > .burger > .line > .over");
+const dateTimeline = document.querySelectorAll(".content > span");
 var dates = document.querySelectorAll('*[id^="date-timeline-"]');
 var stateBurger = false;
 var moveBurger = false;
@@ -39,3 +40,9 @@ burger.onclick = function(){
 		expand = false;
 	}
 };
+
+dateTimeline.forEach(e => {
+	e.addEventListener('click', event => {
+		TweenLite.to(window, 2, {scrollTo:`#ancre-${e.dataset.index}`});
+	});
+});

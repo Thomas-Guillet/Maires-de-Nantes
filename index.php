@@ -18,7 +18,7 @@ include_once "controller.php";
 			}else{
 				$sClassname = 'right';
 			} ?>
-			<div id="<?= $aValue['begin-date'] ?>" class="ancre"></div>
+			<div id="ancre-<?= $aValue['begin-date'] ?>" class="ancre"></div>
 			<div id="maire-<?= $iKey ?>" class="maire <?= $sClassname ?>">
 				<div class="date">
 				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
@@ -49,7 +49,7 @@ include_once "controller.php";
 			<div id="menu" class="extand">
 				<div class="content">
 				<?php foreach ($aNavTimeline as $key => $value) { ?>
-					<a id="date-timeline-<?= $key ?>" href="#<?= $value ?>" ><?= $value ?></a>
+					<span data-index="<?= $value ?>"><?= $value ?></span>
 				<?php } ?>
 				</div>
 			</div>
@@ -64,6 +64,9 @@ include_once "controller.php";
 			</div>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-		<script src="main.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
