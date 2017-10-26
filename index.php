@@ -18,10 +18,11 @@ include_once "controller.php";
 			}else{
 				$sClassname = 'right';
 			} ?>
+			<div id="<?= $aValue['begin-date'] ?>" class="ancre"></div>
 			<div id="maire-<?= $iKey ?>" class="maire <?= $sClassname ?>">
 				<div class="date">
 				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
-					<div id="<?= $aValue['begin-date'] ?>" class="begin">
+					<div class="begin">
 						<?= $aValue['begin-date'] ?>
 					</div>
 				<?php } ?>
@@ -45,10 +46,10 @@ include_once "controller.php";
 		} ?>
 
 		<div class="menu">
-			<div class="extand">
+			<div id="menu" class="extand">
 				<div class="content">
-				<?php foreach ($aNavTimeline as $value) { ?>
-					<a href="#<?= $value ?>" ><?= $value ?></a>
+				<?php foreach ($aNavTimeline as $key => $value) { ?>
+					<a id="date-timeline-<?= $key ?>" href="#<?= $value ?>" ><?= $value ?></a>
 				<?php } ?>
 				</div>
 			</div>
