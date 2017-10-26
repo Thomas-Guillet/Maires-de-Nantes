@@ -64,22 +64,22 @@ $aListeMaires[12]['end-date'] = '1579';
 
 $aListeMaires[13]['name'] = 'Antoine de BRENEZAY';
 $aListeMaires[13]['label'] = 'sieur de Carcouet';
-$aListeMaires[13]['begin-date'] = ' 1580';
+$aListeMaires[13]['begin-date'] = '1580';
 $aListeMaires[13]['end-date'] = null;
 
 $aListeMaires[14]['name'] = 'Bonaventure de COMPLUDO';
 $aListeMaires[14]['label'] = 'sieur de Livernière';
-$aListeMaires[14]['begin-date'] = ' 1581';
+$aListeMaires[14]['begin-date'] = '1581';
 $aListeMaires[14]['end-date'] = '1582';
 
 $aListeMaires[15]['name'] = 'Claude BROSSARD';
 $aListeMaires[15]['label'] = 'sieur de la Trocardière';
-$aListeMaires[15]['begin-date'] = ' 1583';
+$aListeMaires[15]['begin-date'] = '1583';
 $aListeMaires[15]['end-date'] = null;
 
 $aListeMaires[16]['name'] = 'Antoine GRAVOIL';
 $aListeMaires[16]['label'] = 'sieur de Saint-Michel';
-$aListeMaires[16]['begin-date'] = ' 1584';
+$aListeMaires[16]['begin-date'] = '1584';
 $aListeMaires[16]['end-date'] = null;
 
 $aListeMaires[17]['name'] = 'Jacques de MARQUES';
