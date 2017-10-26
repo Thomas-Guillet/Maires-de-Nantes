@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <?php
-include_once "connect.php";
-include_once "dao/userDao.php";
-include_once "dao/articleDao.php";
-include_once "controller/setup_index.php";
+include_once "data.php";
 ?>
 <html>
 	<head>
 		<title>Archives municipales de Nantes</title>
 	</head>
 	<body>
-		<div id="maire-1">
-			<div class="name">
-				Geoffroy DROUET,
+		<?php foreach ($aListeMaires as $iKey => $aValue) { ?>
+			<div id="maire-<?= $iKey ?>">
+				<div class="name">
+					<?= $aValue['name'] ?>,
+				</div>
+				<?php if(isset($aValue['label']) && ($aValue['label'] != '')){ ?>
+					<div class="label">
+					 <?= $aValue['label'] ?>
+					</div>
+				<?php } ?>
+				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
+					<div class="begin-date">
+						<?= $aValue['begin-date'] ?>
+					</div>
+				<?php } ?>
+				<?php if(isset($aValue['end-date']) && ($aValue['end-date'] != '')){ ?>
+					<div class="end-date">
+						<?= $aValue['end-date'] ?>
+					</div>
+				<?php } ?>
 			</div>
-			<div class="label">
-			 sieur de Langle puis de Portric
-			</div>
-			<div class="begin-date">
-				1565
-			</div>
-		</div>
+		<?php } ?>
 	</body>
 </html>
