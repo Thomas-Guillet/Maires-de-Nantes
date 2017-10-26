@@ -465,12 +465,7 @@ $aListeMaires[92]['end-date'] = '1789';
 $aListeMaires[93]['name'] = 'Christophe-Claire DANYEL de KERVEGAN';
 $aListeMaires[93]['label'] = null;
 $aListeMaires[93]['begin-date'] = '1789';
-$aListeMaires[93]['end-date'] = '1790';
-
-$aListeMaires[94]['name'] = 'Christophe-Claire DANYEL de KERVEGAN';
-$aListeMaires[94]['label'] = null;
-$aListeMaires[94]['begin-date'] = '1790';
-$aListeMaires[94]['end-date'] = '1791';
+$aListeMaires[93]['end-date'] = '1791';
 
 $aListeMaires[95]['name'] = 'Pierre-Guillaume-Henry GIRAUD du PLESSIS';
 $aListeMaires[95]['label'] = null;
@@ -505,22 +500,12 @@ $aListeMaires[100]['end-date'] = null;
 $aListeMaires[101]['name'] = 'Julien-François DOUILLARD';
 $aListeMaires[101]['label'] = null;
 $aListeMaires[101]['begin-date'] = '1797';
-$aListeMaires[101]['end-date'] = '1798';
-
-$aListeMaires[102]['name'] = 'Julien-François DOUILLARD'; 
-$aListeMaires[102]['label'] = null;
-$aListeMaires[102]['begin-date'] = '1798';
-$aListeMaires[102]['end-date'] = null;
+$aListeMaires[101]['end-date'] = null;
 
 $aListeMaires[103]['name'] = 'Louis-Marie SAGET';
 $aListeMaires[103]['label'] = null;
 $aListeMaires[103]['begin-date'] = '1798';
-$aListeMaires[103]['end-date'] = '1799';
-
-$aListeMaires[104]['name'] = 'Louis-Marie SAGET';
-$aListeMaires[104]['label'] = null;
-$aListeMaires[104]['begin-date'] = '1799';
-$aListeMaires[104]['end-date'] = '1800';
+$aListeMaires[103]['end-date'] = '1800';
 
 $aListeMaires[105]['name'] = 'François-de-Salles-Godefroy FELLONNEAU';
 $aListeMaires[105]['label'] = null;
@@ -540,12 +525,7 @@ $aListeMaires[107]['end-date'] = '1805';
 $aListeMaires[108]['name'] = 'Jean-Baptiste-Charles BERTRAND-GESLIN';
 $aListeMaires[108]['label'] = null;
 $aListeMaires[108]['begin-date'] = '1805';
-$aListeMaires[108]['end-date'] = '1808';
-
-$aListeMaires[109]['name'] = 'Jean-Baptiste-Charles BERTRAND-GESLIN';
-$aListeMaires[109]['label'] = null;
-$aListeMaires[109]['begin-date'] = '1808';
-$aListeMaires[109]['end-date'] = '1813';
+$aListeMaires[108]['end-date'] = '1813';
 
 $aListeMaires[110]['name'] = 'François-Marie-Bonaventure du FOU';
 $aListeMaires[110]['label'] = null;
@@ -575,17 +555,7 @@ $aListeMaires[114]['end-date'] = '1819';
 $aListeMaires[115]['name'] = 'Louis-Hyacinthe-Nicolas LEVESQUE';
 $aListeMaires[115]['label'] = null;
 $aListeMaires[115]['begin-date'] = '1819';
-$aListeMaires[115]['end-date'] = '1821';
-
-$aListeMaires[116]['name'] = 'Louis-Hyacinthe-Nicolas LEVESQUE';
-$aListeMaires[116]['label'] = null;
-$aListeMaires[116]['begin-date'] = '1821';
-$aListeMaires[116]['end-date'] = '1825';
-
-$aListeMaires[117]['name'] = 'Louis-Hyacinthe-Nicolas LEVESQUE';
-$aListeMaires[117]['label'] = null;
-$aListeMaires[117]['begin-date'] = '1825';
-$aListeMaires[117]['end-date'] = '1830';
+$aListeMaires[115]['end-date'] = '1830';
 
 $aListeMaires[118]['name'] = 'Maurice ETIENNEZ';
 $aListeMaires[118]['label'] = null;
@@ -600,62 +570,17 @@ $aListeMaires[119]['end-date'] = '1832';
 $aListeMaires[120]['name'] = 'Ferdinand FAVRE';
 $aListeMaires[120]['label'] = null;
 $aListeMaires[120]['begin-date'] = '1832';
-$aListeMaires[120]['end-date'] = '1834';
-
-$aListeMaires[121]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[121]['label'] = null;
-$aListeMaires[121]['begin-date'] = '1834';
-$aListeMaires[121]['end-date'] = '1837';
-
-$aListeMaires[122]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[122]['label'] = null;
-$aListeMaires[122]['begin-date'] = '1837';
-$aListeMaires[122]['end-date'] = '1840';
-
-$aListeMaires[123]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[123]['label'] = null;
-$aListeMaires[123]['begin-date'] = '1840';
-$aListeMaires[123]['end-date'] = '1843';
-
-$aListeMaires[124]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[124]['label'] = null;
-$aListeMaires[124]['begin-date'] = '1843';
-$aListeMaires[124]['end-date'] = '1846';
-
-$aListeMaires[125]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[125]['label'] = null;
-$aListeMaires[125]['begin-date'] = '1846';
-$aListeMaires[125]['end-date'] = '1848';
+$aListeMaires[120]['end-date'] = '1848';
 
 $aListeMaires[126]['name'] = 'Evariste COLOMBEL';
 $aListeMaires[126]['label'] = null;
 $aListeMaires[126]['begin-date'] = '1848';
-$aListeMaires[126]['end-date'] = null;
-
-$aListeMaires[127]['name'] = 'Evariste COLOMBEL';
-$aListeMaires[127]['label'] = null;
-$aListeMaires[127]['begin-date'] = '1848';
-$aListeMaires[127]['end-date'] = '1852';
+$aListeMaires[126]['end-date'] = '1852';
 
 $aListeMaires[128]['name'] = 'Ferdinand FAVRE';
 $aListeMaires[128]['label'] = null;
 $aListeMaires[128]['begin-date'] = '1852';
-$aListeMaires[128]['end-date'] = null;
-
-$aListeMaires[129]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[129]['label'] = null;
-$aListeMaires[129]['begin-date'] = '1852';
-$aListeMaires[129]['end-date'] = '1855';
-
-$aListeMaires[130]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[130]['label'] = null;
-$aListeMaires[130]['begin-date'] = '1855';
-$aListeMaires[130]['end-date'] = '1860';
-
-$aListeMaires[131]['name'] = 'Ferdinand FAVRE';
-$aListeMaires[131]['label'] = null;
-$aListeMaires[131]['begin-date'] = '1860';
-$aListeMaires[131]['end-date'] = '1865';
+$aListeMaires[128]['end-date'] = '1865';
 
 $aListeMaires[132]['name'] = 'Antoine DUFOUR';
 $aListeMaires[132]['label'] = null;
@@ -667,11 +592,6 @@ $aListeMaires[133]['label'] = null;
 $aListeMaires[133]['begin-date'] = '1870';
 $aListeMaires[133]['end-date'] = '1871';
 
-$aListeMaires[134]['name'] = 'René WALDECK-ROUSSEAU';
-$aListeMaires[134]['label'] = null;
-$aListeMaires[134]['begin-date'] = '1871';
-$aListeMaires[134]['end-date'] = null;
-
 $aListeMaires[135]['name'] = 'Arsène LELOUP';
 $aListeMaires[135]['label'] = null;
 $aListeMaires[135]['begin-date'] = '1871';
@@ -682,11 +602,6 @@ $aListeMaires[136]['label'] = null;
 $aListeMaires[136]['begin-date'] = '1872';
 $aListeMaires[136]['end-date'] = '1873';
 
-$aListeMaires[137]['name'] = 'René WALDECK-ROUSSEAU';
-$aListeMaires[137]['label'] = null;
-$aListeMaires[137]['begin-date'] = '1873';
-$aListeMaires[137]['end-date'] = null;
-
 $aListeMaires[138]['name'] = 'Alphonse-Jean-Claude-René de CORNULIER-LUCINIERE';
 $aListeMaires[138]['label'] = null;
 $aListeMaires[138]['begin-date'] = '1874';
@@ -695,17 +610,7 @@ $aListeMaires[138]['end-date'] = null;
 $aListeMaires[139]['name'] = 'Julien-Charles-Marie-Claudius LECHAT';
 $aListeMaires[139]['label'] = null;
 $aListeMaires[139]['begin-date'] = '1874';
-$aListeMaires[139]['end-date'] = '1878';
-
-$aListeMaires[140]['name'] = 'Julien-Charles-Marie-Claudius LECHAT';
-$aListeMaires[140]['label'] = null;
-$aListeMaires[140]['begin-date'] = '1878';
-$aListeMaires[140]['end-date'] = '1881';
-
-$aListeMaires[141]['name'] = 'Julien-Charles-Marie-Claudius LECHAT';
-$aListeMaires[141]['label'] = null;
-$aListeMaires[141]['begin-date'] = '1881';
-$aListeMaires[141]['end-date'] = null;
+$aListeMaires[139]['end-date'] = '1881';
 
 $aListeMaires[142]['name'] = 'Mathurin BRISSONNEAU';
 $aListeMaires[142]['label'] = null;
@@ -715,22 +620,7 @@ $aListeMaires[142]['end-date'] = null;
 $aListeMaires[143]['name'] = 'Georges-Evariste-Eugène COLOMBEL';
 $aListeMaires[143]['label'] = null;
 $aListeMaires[143]['begin-date'] = '1881';
-$aListeMaires[143]['end-date'] = '1882';
-
-$aListeMaires[144]['name'] = 'Georges-Evariste-Eugène COLOMBEL';
-$aListeMaires[144]['label'] = null;
-$aListeMaires[144]['begin-date'] = '1882';
-$aListeMaires[144]['end-date'] = '1884';
-
-$aListeMaires[145]['name'] = 'Georges-Evariste-Eugène COLOMBEL';
-$aListeMaires[145]['label'] = null;
-$aListeMaires[145]['begin-date'] = '1884';
-$aListeMaires[145]['end-date'] = '1885';
-
-$aListeMaires[146]['name'] = 'Georges-Evariste-Eugène COLOMBEL'; 
-$aListeMaires[146]['label'] = null;
-$aListeMaires[146]['begin-date'] = '1885';
-$aListeMaires[146]['end-date'] = null;
+$aListeMaires[143]['end-date'] = '1885';
 
 $aListeMaires[147]['name'] = 'Edouard NORMAND';
 $aListeMaires[147]['label'] = null;
@@ -760,12 +650,7 @@ $aListeMaires[150]['end-date'] = '1900';
 $aListeMaires[152]['name'] = 'Paul-Emile SARRADIN';
 $aListeMaires[152]['label'] = null;
 $aListeMaires[152]['begin-date'] = '1900';
-$aListeMaires[152]['end-date'] = '1904';
-
-$aListeMaires[153]['name'] = 'Paul-Emile SARRADIN';
-$aListeMaires[153]['label'] = null;
-$aListeMaires[153]['begin-date'] = '1904';
-$aListeMaires[153]['end-date'] = '1908';
+$aListeMaires[152]['end-date'] = '1908';
 
 $aListeMaires[154]['name'] = 'Gabriel GUIST’HAU';
 $aListeMaires[154]['label'] = null;
@@ -775,22 +660,7 @@ $aListeMaires[154]['end-date'] = '1910';
 $aListeMaires[155]['name'] = 'Paul BELLAMY';
 $aListeMaires[155]['label'] = null;
 $aListeMaires[155]['begin-date'] = '1910';
-$aListeMaires[155]['end-date'] = '1912';
-
-$aListeMaires[156]['name'] = 'Paul BELLAMY';
-$aListeMaires[156]['label'] = null;
-$aListeMaires[156]['begin-date'] = '1912';
-$aListeMaires[156]['end-date'] = '1919';
-
-$aListeMaires[157]['name'] = 'Paul BELLAMY';
-$aListeMaires[157]['label'] = null;
-$aListeMaires[157]['begin-date'] = '1919';
-$aListeMaires[157]['end-date'] = '1925';
-
-$aListeMaires[158]['name'] = 'Paul BELLAMY';
-$aListeMaires[158]['label'] = null;
-$aListeMaires[158]['begin-date'] = '1925';
-$aListeMaires[158]['end-date'] = '1928';
+$aListeMaires[155]['end-date'] = '1928';
 
 $aListeMaires[159]['name'] = 'Gaston VEIL';
 $aListeMaires[159]['label'] = null;
@@ -840,27 +710,12 @@ $aListeMaires[167]['end-date'] = '1947';
 $aListeMaires[168]['name'] = 'Henry ORRION';
 $aListeMaires[168]['label'] = null;
 $aListeMaires[168]['begin-date'] = '1947';
-$aListeMaires[168]['end-date'] = '1953';
-
-$aListeMaires[169]['name'] = 'Henry ORRION';
-$aListeMaires[169]['label'] = null;
-$aListeMaires[169]['begin-date'] = '1953';
-$aListeMaires[169]['end-date'] = '1959';
-
-$aListeMaires[170]['name'] = 'Henry ORRION';
-$aListeMaires[170]['label'] = null;
-$aListeMaires[170]['begin-date'] = '1959';
-$aListeMaires[170]['end-date'] = '1965';
+$aListeMaires[168]['end-date'] = '1965';
 
 $aListeMaires[171]['name'] = 'André MORICE';
 $aListeMaires[171]['label'] = null;
 $aListeMaires[171]['begin-date'] = '1965';
-$aListeMaires[171]['end-date'] = '1971';
-
-$aListeMaires[172]['name'] = 'André MORICE';
-$aListeMaires[172]['label'] = null;
-$aListeMaires[172]['begin-date'] = '1971';
-$aListeMaires[172]['end-date'] = '1977';
+$aListeMaires[171]['end-date'] = '1977';
 
 $aListeMaires[173]['name'] = 'Alain CHENARD';
 $aListeMaires[173]['label'] = null;
@@ -875,22 +730,7 @@ $aListeMaires[174]['end-date'] = '1989';
 $aListeMaires[175]['name'] = 'Jean-Marc AYRAULT';
 $aListeMaires[175]['label'] = null;
 $aListeMaires[175]['begin-date'] = '1989';
-$aListeMaires[175]['end-date'] = '1995';
-
-$aListeMaires[176]['name'] = 'Jean-Marc AYRAULT';
-$aListeMaires[176]['label'] = null;
-$aListeMaires[176]['begin-date'] = '1995';
-$aListeMaires[176]['end-date'] = '2001';
-
-$aListeMaires[177]['name'] = 'Jean-Marc AYRAULT';
-$aListeMaires[177]['label'] = null;
-$aListeMaires[177]['begin-date'] = '2001';
-$aListeMaires[177]['end-date'] = '2008';
-
-$aListeMaires[178]['name'] = 'Jean-Marc AYRAULT';
-$aListeMaires[178]['label'] = null;
-$aListeMaires[178]['begin-date'] = '2008';
-$aListeMaires[178]['end-date'] = '2012';
+$aListeMaires[175]['end-date'] = '2012';
 
 $aListeMaires[179]['name'] = 'Patrick RIMBERT';
 $aListeMaires[179]['label'] = null;

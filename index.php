@@ -5,10 +5,31 @@ include_once "data.php";
 <html>
 	<head>
 		<title>Archives municipales de Nantes</title>
+		<link href="style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
 	</head>
 	<body>
-		<?php foreach ($aListeMaires as $iKey => $aValue) { ?>
-			<div id="maire-<?= $iKey ?>">
+		<?php
+		$iIndent = 0;
+		foreach ($aListeMaires as $iKey => $aValue) { 
+			if($iIndent % 2 == 0){
+				$sClassname = 'left';
+			}else{
+				$sClassname = 'right';
+			} ?>
+			<div id="maire-<?= $iKey ?>" class="maire <?= $sClassname ?>">
+				<div class="date">
+				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
+					<div class="begin">
+						<?= $aValue['begin-date'] ?>
+					</div>
+				<?php } ?>
+				<?php if(isset($aValue['end-date']) && ($aValue['end-date'] != '')){ ?>
+					<div class="end">
+						-<?= $aValue['end-date'] ?>
+					</div>
+				<?php } ?>
+				</div>
 				<div class="name">
 					<?= $aValue['name'] ?>,
 				</div>
@@ -17,17 +38,16 @@ include_once "data.php";
 					 <?= $aValue['label'] ?>
 					</div>
 				<?php } ?>
-				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
-					<div class="begin-date">
-						<?= $aValue['begin-date'] ?>
-					</div>
-				<?php } ?>
-				<?php if(isset($aValue['end-date']) && ($aValue['end-date'] != '')){ ?>
-					<div class="end-date">
-						<?= $aValue['end-date'] ?>
-					</div>
-				<?php } ?>
 			</div>
-		<?php } ?>
+		<?php
+		$iIndent++;
+		} ?>
+
+		<div class="menu">
+			<div class="extand">
+			</div>
+			<div class="btn">
+			</div>
+		</div>
 	</body>
 </html>
