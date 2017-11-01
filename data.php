@@ -6,6 +6,16 @@ $aListeMaires[1]['name'] = 'Geoffroy DROUET';
 $aListeMaires[1]['label'] = 'sieur de Langle puis de Portric';
 $aListeMaires[1]['begin-date'] = '1565';
 $aListeMaires[1]['end-date'] = null;
+$aListeMaires[1]['description'] = "Premier maire de Nantes, élu le 28 novembre 1564, il prêta serment le même jour et fut installé maire le 1er décembre, pour finalement entrer en fonction le 1er janvier 1565.
+
+Administrateur de l'Hôtel-Dieu en 1553
+Miseur de 1554 à 1559
+Juge consul de 1566 à 1567
+
+Il était le sixième enfant de Mathurin Drouet, sieur de Langle et de Jeanne de Creval.
+En 1486, le registre de la paroisse de Couëron mentionne la famille Drouet comme servant aux armes, ce qui semblerait démontrer la noblesse.
+
+Sa femme, Marguerite Pineau fut inhumée en l'église des Chartreux le 8 juin 1569.";
 
 $aListeMaires[2]['name'] = 'Yves ROCAS';
 $aListeMaires[2]['label'] = 'sieur de la Chalonnière';
@@ -362,12 +372,12 @@ $aListeMaires[72]['label'] = 'sieur de la Ville';
 $aListeMaires[72]['begin-date'] = '1708';
 $aListeMaires[72]['end-date'] = '1709';
 
-$aListeMaires[73]['name'] = 'Julien PROUST'; 
+$aListeMaires[73]['name'] = 'Julien PROUST';
 $aListeMaires[73]['label'] = 'sieur du Port-Lavigne';
 $aListeMaires[73]['begin-date'] = '1709';
 $aListeMaires[73]['end-date'] = '1716';
 
-$aListeMaires[74]['name'] = 'André BOUSSINEAU'; 
+$aListeMaires[74]['name'] = 'André BOUSSINEAU';
 $aListeMaires[74]['label'] = 'sieur de la Patissière';
 $aListeMaires[74]['begin-date'] = '1716';
 $aListeMaires[74]['end-date'] = '1720';
@@ -377,12 +387,12 @@ $aListeMaires[75]['label'] = null;
 $aListeMaires[75]['begin-date'] = '1720';
 $aListeMaires[75]['end-date'] = '1730';
 
-$aListeMaires[76]['name'] = 'René LE RAY'; 
+$aListeMaires[76]['name'] = 'René LE RAY';
 $aListeMaires[76]['label'] = 'sieur du Fumet';
 $aListeMaires[76]['begin-date'] = '1730';
 $aListeMaires[76]['end-date'] = '1732';
 
-$aListeMaires[77]['name'] = 'Jean-François VEDIER'; 
+$aListeMaires[77]['name'] = 'Jean-François VEDIER';
 $aListeMaires[77]['label'] = null;
 $aListeMaires[77]['begin-date'] = '1732';
 $aListeMaires[77]['end-date'] = '1735';
@@ -482,7 +492,7 @@ $aListeMaires[97]['label'] = null;
 $aListeMaires[97]['begin-date'] = '1793';
 $aListeMaires[97]['end-date'] = '1794';
 
-$aListeMaires[98]['name'] = 'Pierre-Guillaume-Henry GIRAUD du PLESSIS'; 
+$aListeMaires[98]['name'] = 'Pierre-Guillaume-Henry GIRAUD du PLESSIS';
 $aListeMaires[98]['label'] = null;
 $aListeMaires[98]['begin-date'] = '1795';
 $aListeMaires[98]['end-date'] = null;
@@ -492,7 +502,7 @@ $aListeMaires[99]['label'] = null;
 $aListeMaires[99]['begin-date'] = '1795';
 $aListeMaires[99]['end-date'] = '1797';
 
-$aListeMaires[100]['name'] = 'Christophe-Claire DANYEL de KERVEGAN'; 
+$aListeMaires[100]['name'] = 'Christophe-Claire DANYEL de KERVEGAN';
 $aListeMaires[100]['label'] = null;
 $aListeMaires[100]['begin-date'] = '1797';
 $aListeMaires[100]['end-date'] = null;

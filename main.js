@@ -11,7 +11,7 @@ burger.onmouseenter = function(){
 	if(stateBurger == false && moveBurger == false){
 		moveBurger = true;
 		TweenMax.staggerTo(overBurger, 0.6, {x:"+=50"}, 0.05);
-		setTimeout(function(){ 
+		setTimeout(function(){
 			stateBurger = true;
 			moveBurger = false;
 		}, 600);
@@ -23,7 +23,7 @@ burger.onmouseleave = function(){
 			console.log('start');
 		moveBurger = true;
 		TweenMax.staggerTo(overBurger, 0.6, {x:"-=50"}, 0.05);
-		setTimeout(function(){ 
+		setTimeout(function(){
 			stateBurger = false;
 			moveBurger = false;
 		}, 600);
@@ -31,12 +31,12 @@ burger.onmouseleave = function(){
 };
 burger.onclick = function(){
 	if(expand == false){
-		TweenMax.to(menu, 0.5, {y:"+=90"});
-		TweenMax.to(burger, 0.5, {y:"+=90"});
+		TweenMax.to(menu, 0.5, {y:"+=60"});
+		TweenMax.to(burger, 0.5, {y:"+=60"});
 		expand = true;
 	}else{
-		TweenMax.to(menu, 0.5, {y:"-=90"});
-		TweenMax.to(burger, 0.5, {y:"-=90"});
+		TweenMax.to(menu, 0.5, {y:"-=60"});
+		TweenMax.to(burger, 0.5, {y:"-=60"});
 		expand = false;
 	}
 };
@@ -44,5 +44,10 @@ burger.onclick = function(){
 dateTimeline.forEach(e => {
 	e.addEventListener('click', event => {
 		TweenLite.to(window, 2, {scrollTo:`#ancre-${e.dataset.index}`});
+		if(expand == true){
+			TweenMax.to(menu, 0.5, {y:"-=60"});
+			TweenMax.to(burger, 0.5, {y:"-=60"});
+			expand = false;
+		}
 	});
 });

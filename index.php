@@ -8,18 +8,22 @@ include_once "controller.php";
 		<title>Archives municipales de Nantes</title>
 		<link href="style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 	</head>
 	<body>
+		<div id="entete" style="background-image: url(<?= $actual_link ?>/img/background.jpg);">
+		</div>
+		<div id="backentete">
+			<div class="title">
+				Les Maires de la Ville de Nantes
+			</div>
+			<img src="<?= $actual_link ?>/img/blason.png" />
+		</div>
 		<?php
-		$iIndent = 0;
-		foreach ($aListeMaires as $iKey => $aValue) { 
-			if($iIndent % 2 == 0){
-				$sClassname = 'left';
-			}else{
-				$sClassname = 'right';
-			} ?>
+		foreach ($aListeMaires as $iKey => $aValue) { ?>
 			<div id="ancre-<?= $aValue['begin-date'] ?>" class="ancre"></div>
-			<div id="maire-<?= $iKey ?>" class="maire <?= $sClassname ?>">
+			<div id="maire-<?= $iKey ?>" class="maire">
 				<div class="date">
 				<?php if(isset($aValue['begin-date']) && ($aValue['begin-date'] != '')){ ?>
 					<div class="begin">
@@ -42,7 +46,6 @@ include_once "controller.php";
 				<?php } ?>
 			</div>
 		<?php
-		$iIndent++;
 		} ?>
 
 		<div class="menu">
@@ -63,6 +66,12 @@ include_once "controller.php";
 				</div>
 			</div>
 		</div>
+
+		<!-- <div id="details">
+			<div class="img">
+
+			</div>
+		</div> -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
