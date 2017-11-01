@@ -1,5 +1,5 @@
 body{
-	font-family: 'Rozha One', serif;
+	font-family: 'Rozha One', serif !important;
 	background-color: white;
 }
 
@@ -63,13 +63,33 @@ html::-webkit-scrollbar-thumb
 .maire{
 	margin-top: 50px;
 	margin-bottom: 100px;
-	overflow: hidden;
-	border-bottom: 3px solid #6d6d6d;
+	overflow-y: scroll;
 	z-index: 0;
 	background-color: rgba(0, 0, 0, 0.82);
 	padding: 18px;
 	position: relative;
 	height: 100%
+}
+
+.maire::-webkit-scrollbar{
+	width: 16px;
+	height: 16px;
+}
+.maire::-webkit-scrollbar-thumb
+{
+	background-color: rgb(255, 255, 255);
+}
+.info-maire{
+	text-align: center;
+}
+.this-date{
+	color: white;
+    font-size: 25px;
+    line-height: 50px;
+}
+.info-city{
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .name{
@@ -78,15 +98,17 @@ html::-webkit-scrollbar-thumb
 }
 .name:hover{
 }
-
-.left{
-
+.description{
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    line-height: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
 }
-
-.right{
-	text-align: right;
+.picture{
+	max-width: 20%;
+	max-height: 20%;
 }
-
 .date{
 	color: rgba(255, 255, 255, 1);
 	font-size: 57px;
@@ -94,18 +116,10 @@ html::-webkit-scrollbar-thumb
 	display: flex;
 }
 
-.left > .date{
-	right: 23px;
-}
-
-.right > .date{
-	left: 23px;
-}
-
 .label{
     color: white;
     white-space: nowrap;
-		font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .menu{
@@ -169,7 +183,7 @@ html::-webkit-scrollbar-thumb
 	cursor: pointer;
 }
 #open-timeline > .burger{
-    margin-top: 14px;
+    margin-top: 10px;
 }
 #open-timeline > .burger > .line{
     background-color: white;

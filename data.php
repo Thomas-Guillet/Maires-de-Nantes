@@ -16,6 +16,8 @@ Il était le sixième enfant de Mathurin Drouet, sieur de Langle et de Jeanne de
 En 1486, le registre de la paroisse de Couëron mentionne la famille Drouet comme servant aux armes, ce qui semblerait démontrer la noblesse.
 
 Sa femme, Marguerite Pineau fut inhumée en l'église des Chartreux le 8 juin 1569.";
+$aListeMaires[1]['picture'] = "blason_1.png";
+$aListeMaires[1]['nb_hab'] = "1025";
 
 $aListeMaires[2]['name'] = 'Yves ROCAS';
 $aListeMaires[2]['label'] = 'sieur de la Chalonnière';
@@ -726,6 +728,7 @@ $aListeMaires[171]['name'] = 'André MORICE';
 $aListeMaires[171]['label'] = null;
 $aListeMaires[171]['begin-date'] = '1965';
 $aListeMaires[171]['end-date'] = '1977';
+$aListeMaires[171]['building'] = 'Tour Bretagne';
 
 $aListeMaires[173]['name'] = 'Alain CHENARD';
 $aListeMaires[173]['label'] = null;
